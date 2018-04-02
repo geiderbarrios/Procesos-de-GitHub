@@ -1,0 +1,21 @@
+pasos para  subir y publicar paginas web en github
+
+https://www.youtube.com/watch?v=I-d9_l7myXw
+
+git init
+
+git remote add origin https://github.com/geiderbarrios/primera-web.git
+
+git checkout -b gh-pages
+
+git status
+
+git add -A
+
+git commit -m "initial commit"
+
+git push origin gh-pages
+
+nombre del proyecto: geiderbarrios.github.io/pagina-4/
+
+

@@ -1,0 +1,51 @@
+https://www.youtube.com/watch?v=Qn186NyDqOk
+----------------------------------------------------
+
+git clone + link del proyecto: clonar proyectos
+-----------------------------------------------
+conectar el proyecto local con el remoto
+
+git remote add origin +  link del proyecto. 
+git remote -v. con esto verificamos.
+--------------------------------------------------
+para quitar lo qie hicimos.
+git remote remove origin
+git remote -v  
+-----------------------------------------------------
+para mirar los commits
+commits login
+------------------------------------------------------
+limpiar pantalla
+clear
+-------------------------------------------------------
+como mandar los cambios(commits) a github, pasar lo de la computadora a github.
+
+git push origin master
+-------------------------------------------------------
+Ver lo que hicimos 
+git status
+-----------------------------------------------
+pasos para  subir y publicar paginas web en github
+
+https://www.youtube.com/watch?v=I-d9_l7myXw
+
+git init
+
+git remote add origin https://github.com/geiderbarrios/primera-web.git
+
+git checkout -b gh-pages
+
+git status
+
+git add -A
+
+git commit -m "initial commit"
+
+git push origin gh-pages
+
+nombre del proyecto: geiderbarrios.github.io/pagina-4/
+
+
+
+
+

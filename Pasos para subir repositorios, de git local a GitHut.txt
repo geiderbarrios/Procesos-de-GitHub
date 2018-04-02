@@ -1,0 +1,55 @@
+
+Pasos para subir repositorios, de git local a GitHut, para soncronizar.
+
+1. Estando en la raiz del proyecto, inicializamos el nuevo repositorio.
+--------------------------------------------------
+
+2. Escribimos en la consola o terminal de Git.
+
+git init
+
+---------------------------------------------------
+3. git status
+
+---------------------------------------------------
+4. para agregar archivos al repositorio.
+
+git add  "nombre del archivo "
+
+git add -A  ---> con este codigo toda la carpeta general desde la su raiz.
+
+----------------------------------------------------
+5. Copiar la url del repositorio nuevo.
+
+git remote add origin https://github.com/AJpalacios/git/.git
+
+----------------------------------------------------
+6.crear un mensaje, cuando se balla a modificar un archivo dentro del repositorio.
+
+git commit -m "agregar archivo"
+
+----------------------------------------------------
+7. git status.
+
+Este nos muestra todas las actividades o actualizaciones que realicemos en el repositorio.
+8. para sincronizar todo lo agregado.
+----------------------------------------------------
+
+git push origin master.
+
+este enpuja el repositoria local al sincronizado, de
+git a GitHub.
+-------------------------
+usario: geiderbarrios
+clave: canita87
+-------------------------------
+
+https://geiderbarrios@github.com
+
+-----------------------------------
+
+nota:
+cada ves que se quiera agregar un arvhivo nuevo
+se repite el punto 4,6,7,8
+-------------------------------------------------
+

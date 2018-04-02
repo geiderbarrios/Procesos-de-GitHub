@@ -1,0 +1,73 @@
+Git.
+
+pagina de descarga del programa: 
+https://git-scm.com/download/win
+
+
+-----------------------------------------------------------
+este comando marca el inicio del proyecto. Se utiliza una ves al iniciar nuestro proyecto.
+
+git init
+
+---------------------------------------------
+git status
+
+nos dice el estado de nuestro proyecto
+
+-------------------------------------------
+git add index.html
+con este comando le decimos que archivos estan listo para
+el siguiente paso.
+
+git add -A  (con este comando le dicemos pasar todo)
+
+---------------------------------------------------
+
+git commit -m "mensaje"
+guardamos los cambios, con un mensaje para identificarlos.
+
+git log
+da la información de todo los commits
+
+git checkout + commits
+identificamos el commits y viajamos sobre el
+
+git checkout master
+nos mueve al aultimo commits
+
+git log > commits.tx
+nos guarda todos los commits por si lo necesitamos.
+----------------------------------------------------
+rama master:
+es donde comenzamos a trabajar la rama principal y estable
+de nuestro proyecto.
+
+git branch
+nos muestra la ramas.
+
+para crear una rama 
+git brach + "nombre"
+------------------------------------------------------------
+tags (etiquetas)
+son puntos especoficos en la historia del proyecto
+y se usan para marcan alguna versión del  mismo.
+
+----------------------------------------------------------
+git push origin master -f 
+
+fuerza a subir los cambios o commits
+
+---------------------------------------
+
+Trabajar en equipo.
+
+en organización.
+agregamos a los participantes y le damos los privilegios.
+..........................................................
+
+geider barrios chaverra. ing de sistemas, esp en gestión publica. master en gestión TIC.
+
+index.html
+
+
+
